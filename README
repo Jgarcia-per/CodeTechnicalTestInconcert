@@ -1,0 +1,51 @@
+# Inconcert
+
+Este repo se realiza para presentar una prueba técnica en la empresa Inconcert
+
+## Requisitos
+
+Asegúrate de tener instalado Python 3.10 o una versión superior.
+
+## Ejecución
+
+1. Clona este repositorio o descarga el archivo que desees ejecutar.
+2. Abre una terminal y navega al directorio donde se encuentra el archivo.
+3. Ejecuta el script necesario
+
+### Invertir Cadena
+
+Este script invierte una cadena de texto proporcionada.
+
+#### Ejecucion Invertir Cadena
+
+```bash
+python invertString.py
+```
+
+### Segundo Mayor
+
+Este script encuentra el segundo número más grande en una lista de números.
+
+#### Ejecucion Segundo Mayor
+
+```bash
+python secondGreat.py
+```
+
+### API REST Básica
+
+Este proyecto implementa una API REST básica para gestionar tareas utilizando **FastAPI**.
+
+#### Requisitos Adicionales
+
+Instalar las dependencias necesarias ejecutando:
+
+```bash
+pip install fastapi uvicorn
+```
+
+#### Ejecucion de la API REST
+
+```bash
+uvicorn basicApiRest:app --reload
+```
